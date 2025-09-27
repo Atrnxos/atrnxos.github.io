@@ -1,0 +1,51 @@
+<style>
+/* 防止标题换行 */
+.site-title {
+  white-space: nowrap !important;
+}
+
+/* 调整导航栏宽度 */
+.side-bar {
+  width: 280px !important;
+  min-width: 280px !important;
+}
+
+.main {
+  margin-left: 280px !important;
+}
+
+.search {
+  width: calc(280px - 2rem) !important;
+  margin: 0 1rem !important;
+}
+
+/* 调整导航栏内部间距，让内容更紧凑 */
+.nav-list {
+  padding: 0 0.8rem !important;
+}
+
+.nav-list-item {
+  margin: 0.1rem 0 !important;
+}
+
+.nav-list-link {
+  padding: 0.3rem 0.5rem !important;
+  font-size: 0.9rem !important;
+}
+
+/* 移动端响应式设计 */
+@media (max-width: 66.5rem) {
+  .side-bar {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+  
+  .main {
+    margin-left: 0 !important;
+  }
+  
+  .search {
+    width: calc(100% - 2rem) !important;
+  }
+}
+</style>

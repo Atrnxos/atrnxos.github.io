@@ -1,0 +1,10 @@
+# _data/navigation.yml
+nav:
+  - title: 首页
+    url: /
+  - title: 开发文档
+    url: /docs/
+  - title: 生态应用
+    url: /ecosystem/
+  - title: 博客
+    url: /blog/

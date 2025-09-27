@@ -1,0 +1,23 @@
+title: "ATRNXOS区块链"
+description: "The official documentation for ATRNXOS Blockchain."
+theme: just-the-docs
+url: "https://atrnxos.github.io"
+
+# Just the Docs 主题配置
+just_the_docs:
+  # 导航配置
+  nav_footer: false
+  
+  # 搜索配置
+  search_enabled: true
+
+# 确保包含自定义文件
+include: ['_includes']
+
+# 网站基础配置
+baseurl: "" # 如果网站不在根目录，请设置子路径
+
+# 启用 SCSS 处理
+# sass:
+#   sass_dir: _sass
+#   style: compressed
