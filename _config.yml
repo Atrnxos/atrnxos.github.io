@@ -1,7 +1,12 @@
 title: "ATRNXOS区块链"
 description: "The official documentation for ATRNXOS Blockchain."
-theme: just-the-docs
+# theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 url: "https://atrnxos.github.io"
+
+# 添加插件配置
+plugins:
+  - jekyll-remote-theme
 
 # Just the Docs 主题配置
 just_the_docs:
